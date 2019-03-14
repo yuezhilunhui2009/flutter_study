@@ -20,10 +20,12 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 
 ## 项目结构（更新中）
 ```bash
-├── android     # Android 客户端目录
-├── ios         # iOS 客户端目录
-├── test        # Flutter 单元测试目录
-└── lib         # Flutter 代码目录
+├── android         # Android 客户端目录
+├── ios             # iOS 客户端目录
+├── test            # Flutter 单元测试目录
+└── lib             # Flutter 代码目录
+    ├── widgets     # 全局通用组件
+    └── pages       # 页面
 ```
 
 ## 扫码安装 APP（后续添加）
@@ -32,7 +34,40 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 2019/03/11 ~ 2019/03/15
 - [ ] 项目目录结构
 - [ ] 常用布局组件
+    - [ ] Container
+    - [ ] Padding
+    - [ ] Center
+    - [ ] Align
+    - [ ] FittedBox
+    - [ ] AspectRatio
+    - [ ] ConstrainedBox
+    - [ ] Baseline
+    - [ ] FractionallySizedBox
+    - [ ] IntrinsicHeight
+    - [ ] IntrinsicWidth
+    - [ ] LimitedBox
+    - [ ] Offstage
+    - [ ] OverflowBox
+    - [ ] SizedBox
+    - [ ] SizedOverflowBox
+    - [ ] Transform
+    - [ ] CustomSingleChildLayout
+    - [ ] Row
+    - [ ] Column
+    - [ ] Stack
+    - [ ] IndexedStack
+    - [ ] Flow
+    - [ ] Table
+    - [ ] Wrap
+    - [ ] ListBody
+    - [ ] ListView
+    - [ ] CustomMultiChildLayout
+    - [ ] LayoutBuilder
 - [ ] 路由
+    - [ ] 命名路由
+    - [ ] 自定义路由
+    - [ ] 嵌套路由
+    - [ ] 弹出路由
 
 2019/03/18 ~ 2019/03/22
 - [ ] 常用 UI 组件
