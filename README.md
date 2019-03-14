@@ -1,4 +1,6 @@
 # flutter_study
+[![Build Status](https://travis-ci.com/yuezhilunhui2009/flutter_study.svg?branch=master)](https://travis-ci.com/yuezhilunhui2009/flutter_study)
+
 Flutter 功能示例项目，包含基本项目结构、状态管理、常用布局组件、常用 UI 组件、网络请求、本地存储等功能。
 
 ## 准备工作
