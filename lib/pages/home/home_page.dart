@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_study/pages/home/layout_view/layout_view.dart';
-import 'package:flutter_study/pages/home/network_view/network_view.dart';
-import 'package:flutter_study/pages/home/project_view/project_view.dart';
-import 'package:flutter_study/pages/home/router_view/router_view.dart';
-import 'package:flutter_study/pages/home/state_view/state_view.dart';
-import 'package:flutter_study/pages/home/storage_view/storage_view.dart';
-import 'package:flutter_study/pages/home/third_party_view/third_party_view.dart';
-import 'package:flutter_study/pages/home/ui_view/ui_view.dart';
+import 'package:flutter_study/pages/layout/layout_page.dart';
+import 'package:flutter_study/pages/network/network_page.dart';
+import 'package:flutter_study/pages/project/project_page.dart';
+import 'package:flutter_study/pages/router/router_page.dart';
+import 'package:flutter_study/pages/state/state_page.dart';
+import 'package:flutter_study/pages/storage/storage_page.dart';
+import 'package:flutter_study/pages/third_party/third_party_page.dart';
+import 'package:flutter_study/pages/ui/ui_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -17,7 +17,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin {
   TabController _tabController;
   List<Tab> tabs = <Tab>[
-    Tab(text: '项目'),
     Tab(text: '布局'),
     Tab(text: 'UI组件'),
     Tab(text: '路由'),
@@ -25,6 +24,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
     Tab(text: '持久化'),
     Tab(text: '第三方'),
     Tab(text: '状态管理'),
+    Tab(text: '项目结构'),
   ];
 
   @override
@@ -54,7 +54,6 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
       body: TabBarView(
         controller: _tabController,
         children: <Widget>[
-          ProjectView(),
           LayoutView(),
           UiView(),
           RouterView(),
@@ -62,6 +61,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
           StorageView(),
           ThirdPartyView(),
           StateView(),
+          ProjectView(),
         ],
       ),
     );
