@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_study/pages/home/home.dart';
+import 'pages/home/home_page.dart';
 
 /// 程序入口
 void main() {
@@ -18,7 +18,10 @@ class Application extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData.light(),
-      home: HomePage(),
+      initialRoute: '/',
+      routes: {
+        '/': (BuildContext context) => HomePage(),
+      },
     );
   }
 }

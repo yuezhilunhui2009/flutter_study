@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 
-class LayoutView extends StatelessWidget {
+import '../../widgets/widget_card.dart';
+import 'container_view.dart';
+import 'padding_view.dart';
+
+class LayoutPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -10,19 +14,15 @@ class LayoutView extends StatelessWidget {
         crossAxisSpacing: 5.0,
         crossAxisCount: 2,
         children: <Widget>[
-          Container(
-            color: Colors.black12,
-            padding: EdgeInsets.all(5),
-            child: Column(
-              children: <Widget>[
-                Text('标题标题'),
-                Text('描述描述描述描述描述描述描述描述描述描述描述描述',
-                  style: TextStyle(
-                    color: Colors.black54
-                  ),
-                )
-              ],
-            ),
+          WidgetCard(
+            title: 'Container',
+            desc: '一个拥有绘制、定位、调整大小的 widget。',
+            targetBuilder: () => ContainerView(),
+          ),
+          WidgetCard(
+            title: 'Padding',
+            desc: '一个widget, 会给其子widget添加指定的填充。',
+            targetBuilder: () => PaddingView(),
           ),
         ],
       ),

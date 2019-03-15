@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class StorageView extends StatelessWidget {
+class StoragePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

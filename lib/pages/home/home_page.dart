@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'package:flutter_study/pages/layout/layout_page.dart';
-import 'package:flutter_study/pages/network/network_page.dart';
-import 'package:flutter_study/pages/project/project_page.dart';
-import 'package:flutter_study/pages/router/router_page.dart';
-import 'package:flutter_study/pages/state/state_page.dart';
-import 'package:flutter_study/pages/storage/storage_page.dart';
-import 'package:flutter_study/pages/third_party/third_party_page.dart';
-import 'package:flutter_study/pages/ui/ui_page.dart';
+import '../network/network_page.dart';
+import '../project/project_page.dart';
+import '../router/router_page.dart';
+import '../state/state_page.dart';
+import '../storage/storage_page.dart';
+import '../third_party/third_party_page.dart';
+import '../ui/ui_page.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -54,14 +54,14 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
       body: TabBarView(
         controller: _tabController,
         children: <Widget>[
-          LayoutView(),
-          UiView(),
-          RouterView(),
-          NetworkView(),
-          StorageView(),
-          ThirdPartyView(),
-          StateView(),
-          ProjectView(),
+          LayoutPage(),
+          UiPage(),
+          RouterPage(),
+          NetworkPage(),
+          StoragePage(),
+          ThirdPartyPage(),
+          StatePage(),
+          ProjectPage(),
         ],
       ),
     );

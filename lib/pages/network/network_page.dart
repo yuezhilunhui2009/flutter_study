@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class NetworkView extends StatelessWidget {
+class NetworkPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

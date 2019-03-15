@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class RouterView extends StatelessWidget {
+class RouterPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(

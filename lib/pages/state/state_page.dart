@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class StateView extends StatelessWidget {
+class StatePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
