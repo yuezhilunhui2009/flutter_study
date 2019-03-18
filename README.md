@@ -82,7 +82,7 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 ## 第三方插件（更新中）
 
 ## 相关文章
-### Flutter 布局
+### Flutter 布局 —— 作者：[Loki](http://whysodiao.com/about/)
 * [Flutter 布局（一）- Container 详解](https://github.com/yang7229693/flutter-study/blob/master/post/4.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%B8%80%EF%BC%89-%20Container%E8%AF%A6%E8%A7%A3.md)
 * [Flutter 布局（二）- Padding、Align、Center 详解](https://github.com/yang7229693/flutter-study/blob/master/post/5.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%BA%8C%EF%BC%89-%20Padding%E3%80%81Align%E3%80%81Center%E8%AF%A6%E8%A7%A3.md)
 * [Flutter 布局（三）- FittedBox、AspectRatio、ConstrainedBox 详解](https://github.com/yang7229693/flutter-study/blob/master/post/6.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%B8%89%EF%BC%89-%20FittedBox%E3%80%81AspectRatio%E3%80%81ConstrainedBox%E8%AF%A6%E8%A7%A3.md)
@@ -97,7 +97,7 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 * [Flutter 动画详解（一）](https://github.com/yang7229693/flutter-study/blob/master/post/16.%20Flutter%20%E5%8A%A8%E7%94%BB%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%80%EF%BC%89.md)
 * [Flutter 动画详解（二）](https://github.com/yang7229693/flutter-study/blob/master/post/17.%20Flutter%20%E5%8A%A8%E7%94%BB%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%BA%8C%EF%BC%89.md)
 
-### Flutter 完整开发实战详解
+### Flutter 完整开发实战详解 —— 作者：[恋猫de小郭](https://juejin.im/user/582aca2ba22b9d006b59ae68)
 * [一、Dart 语言和 Flutter 基础](https://juejin.im/post/5b631d326fb9a04fce524db2)
 * [二、 快速开发实战篇](https://juejin.im/post/5b685a2a5188251ac22b71c0)
 * [三、 打包与填坑篇](https://juejin.im/post/5b6fd4dc6fb9a0099e711162)
@@ -105,7 +105,7 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 * [五、 深入探索](https://juejin.im/post/5bc450dff265da0a951f032b)
 * [六、 深入 Widget 原理](https://juejin.im/post/5c7e853151882549664b0543)
 
-### Flutter | 状态管理探索篇
+### Flutter | 状态管理探索篇 —— 作者：[Vadaski](https://juejin.im/user/5b5d45f4e51d453526175c06)
 * [Flutter | 状态管理探索篇（一） —— Scoped Model](https://juejin.im/post/5b97fa0d5188255c5546dcf8)
 * [Flutter | 状态管理探索篇（二） —— Redux](https://juejin.im/post/5ba26c086fb9a05ce57697da)
 * [Flutter | 状态管理探索篇（三） —— BLoC](https://juejin.im/post/5bb6f344f265da0aa664d68a)
@@ -113,7 +113,7 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 * [Flutter | 状态管理拓展篇（四） —— RxDart](https://juejin.im/post/5bcea438e51d4536c65d2232)
 * [Flutter | 状态管理特别篇（五） —— Provide](https://juejin.im/post/5c6d4b52f265da2dc675b407)
 
-### 深入了解 Flutter 的 isolate
+### 深入了解 Flutter 的 isolate —— 作者：[小德_koudle](https://juejin.im/user/5b5587a05188251abb46b797)
 * [深入了解 Flutter 的 isolate (1) —— 事件循环 (event loop) 及代码运行顺序](https://juejin.im/post/5c338bdb6fb9a04a01647eb9)
 * [深入了解 Flutter 的 isolate (2) —— 创建自己的 isolate](https://juejin.im/post/5c338bdb6fb9a04a01647eb9)
 * [深入了解 Flutter 的 isolate (3) —— Flutter 的 thread model（线程模型）](https://juejin.im/post/5c3844fae51d4551ec60988e)
@@ -123,7 +123,7 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 * [Flutter 持久化存储之文件存储](https://juejin.im/post/5c7f2f2ae51d4575d911172a)
 * [Flutter 持久化存储之 key-value 存储](https://juejin.im/post/5c7c9c1b6fb9a04a0540650e)
 
-### 性能优化
+### 性能优化 —— 作者：[小德_koudle](https://juejin.im/user/5b5587a05188251abb46b797)
 * [Flutter 性能监控工具（1） —— Observatory 简介](https://juejin.im/post/5c4c7634e51d453be80171c9)
 * [Flutter 性能监控工具（2） —— PerformanceOverlay 简介](https://juejin.im/post/5c4d3ef66fb9a049b13e95b7)
 * [Flutter 性能监控工具（3） —— Observatory 使用](https://juejin.im/post/5c4f1c6951882525a72458b6)
