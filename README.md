@@ -1,87 +1,10 @@
 # flutter_study
-[![Build Status](https://travis-ci.com/yuezhilunhui2009/flutter_study.svg?branch=master)](https://travis-ci.com/yuezhilunhui2009/flutter_study)
+搜集整理 Flutter 相关技术资料
 
-Flutter 功能示例项目，包含基本项目结构、状态管理、常用布局组件、常用 UI 组件、网络请求、本地存储等功能。
+## Flutter Widget 示例项目
+* [Flutter UI](https://github.com/efoxTeam/flutter-ui)
+* [Flutter Go](https://github.com/alibaba/flutter-go)
 
-## 准备工作
-* 配置 Flutter 环境：[Windows](https://flutterchina.club/setup-windows/) [MACOS](https://flutterchina.club/setup-macos/)
-* 建议安装 [Android Studio](https://developer.android.com/studio) 及其 [Flutter 插件](https://plugins.jetbrains.com/plugin/9212-flutter)
-* 建议准备一台安卓真机
-
-## 快速开始
-```bash
-# 克隆项目
-git clone https://github.com/yuezhilunhui2009/flutter_study.git
-
-# 使用 Android Studio 打开 flutter_study 文件夹
-
-# 将安卓真机连接到计算机，然后在 Android Studio 内点击 Run -> Run 菜单
-```
-
-## 项目结构（更新中）
-```bash
-├── android         # Android 客户端目录
-├── ios             # iOS 客户端目录
-├── test            # Flutter 单元测试目录
-└── lib             # Flutter 代码目录
-    ├── widgets     # 全局通用组件
-    └── pages       # 页面
-```
-
-## 扫码安装 APP（后续添加）
-
-## TODO（不断细化中）
-2019/03/11 ~ 2019/03/15
-- [ ] 项目目录结构
-- [ ] 常用布局组件
-    - [ ] Container
-    - [ ] Padding
-    - [ ] Center
-    - [ ] Align
-    - [ ] FittedBox
-    - [ ] AspectRatio
-    - [ ] ConstrainedBox
-    - [ ] Baseline
-    - [ ] FractionallySizedBox
-    - [ ] IntrinsicHeight
-    - [ ] IntrinsicWidth
-    - [ ] LimitedBox
-    - [ ] Offstage
-    - [ ] OverflowBox
-    - [ ] SizedBox
-    - [ ] SizedOverflowBox
-    - [ ] Transform
-    - [ ] CustomSingleChildLayout
-    - [ ] Row
-    - [ ] Column
-    - [ ] Stack
-    - [ ] IndexedStack
-    - [ ] Flow
-    - [ ] Table
-    - [ ] Wrap
-    - [ ] ListBody
-    - [ ] ListView
-    - [ ] CustomMultiChildLayout
-    - [ ] LayoutBuilder
-- [ ] 路由
-    - [ ] 命名路由
-    - [ ] 自定义路由
-    - [ ] 嵌套路由
-    - [ ] 弹出路由
-
-2019/03/18 ~ 2019/03/22
-- [ ] 常用 UI 组件
-- [ ] 网络请求
-- [ ] 数据持久化
-
-2019/03/25 ~ 2019/03/28
-- [ ] 状态管理
-- [ ] 常用第三方组件
-- [ ] 稳定性测试
-
-## 第三方插件（更新中）
-
-## 相关文章
 ### Flutter 布局 —— 作者：[Loki](http://whysodiao.com/about/)
 * [Flutter 布局（一）- Container 详解](https://github.com/yang7229693/flutter-study/blob/master/post/4.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%B8%80%EF%BC%89-%20Container%E8%AF%A6%E8%A7%A3.md)
 * [Flutter 布局（二）- Padding、Align、Center 详解](https://github.com/yang7229693/flutter-study/blob/master/post/5.%20Flutter%20%E5%B8%83%E5%B1%80%EF%BC%88%E4%BA%8C%EF%BC%89-%20Padding%E3%80%81Align%E3%80%81Center%E8%AF%A6%E8%A7%A3.md)
