@@ -136,6 +136,7 @@ git clone https://github.com/yuezhilunhui2009/flutter_study.git
 * [深入理解 BuildContext](https://juejin.im/post/5c665cb651882562914ec153)
 * [Flutter 开发中常用的快捷键](https://juejin.im/post/5c5d970e6fb9a049af6db7cd)
 * [Flutter 中 Widget 之 key 原理探索](https://www.jianshu.com/p/e9f48141218d)
+* [FlutterBoost 一种混合方案](https://github.com/alibaba/flutter_boost)
 
 ### 争议
 * [React Native VS Flutter 评测](https://juejin.im/post/5b1e8b826fb9a01e3962618d)
