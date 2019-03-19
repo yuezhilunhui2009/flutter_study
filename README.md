@@ -43,8 +43,13 @@
 * [深入了解 Flutter 的 isolate (4) —— 使用 Compute 写 isolates](https://juejin.im/post/5c3a06f56fb9a049d37f54f4)
 
 ### 数据持久化
+* [Flutter持久化存储之数据库存储](https://juejin.im/post/5c81e48c6fb9a049b07e2534)
 * [Flutter 持久化存储之文件存储](https://juejin.im/post/5c7f2f2ae51d4575d911172a)
 * [Flutter 持久化存储之 key-value 存储](https://juejin.im/post/5c7c9c1b6fb9a04a0540650e)
+
+### 路由
+* [Flutter 路由原理解析](https://juejin.im/post/5c8db8e8f265da2d864b889f)
+* [Flutter 路由源码解析](https://juejin.im/post/5c8db8fff265da2de52dd80f)
 
 ### 性能优化 —— 作者：[小德_koudle](https://juejin.im/user/5b5587a05188251abb46b797)
 * [Flutter 性能监控工具（1） —— Observatory 简介](https://juejin.im/post/5c4c7634e51d453be80171c9)
