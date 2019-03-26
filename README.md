@@ -67,6 +67,7 @@
 * [Flutter 中 Widget 之 key 原理探索](https://www.jianshu.com/p/e9f48141218d)
 * [FlutterBoost 一种混合方案](https://github.com/alibaba/flutter_boost)
 * [你还在滥用 StatefulWidget 吗](https://lizhaoxuan.github.io/2019/01/02/Flutter-%E4%BD%A0%E8%BF%98%E5%9C%A8%E6%BB%A5%E7%94%A8StatefulWidget%E5%90%97/)
+* [Flutter 填坑-如何保持底部导航栏页中子页面状态](https://juejin.im/post/5b73c3b3f265da27d701473a)
 
 ### 争议
 * [React Native VS Flutter 评测](https://juejin.im/post/5b1e8b826fb9a01e3962618d)
