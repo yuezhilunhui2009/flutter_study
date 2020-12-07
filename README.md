@@ -72,3 +72,14 @@
 
 ### 争议
 * [React Native VS Flutter 评测](https://juejin.im/post/5b1e8b826fb9a01e3962618d)
+
+### 常用第三方依赖
+* [网络请求 - dio](https://github.com/flutterchina/dio/blob/master/README-ZH.md)
+* [自动缓存图片 - cached_network_image](https://pub.flutter-io.cn/packages/cached_network_image)
+* [本地存储 - shared_preferences](https://pub.flutter-io.cn/packages/shared_preferences)
+* [下拉刷新 - pull_to_refresh](https://pub.flutter-io.cn/packages/pull_to_refresh)
+* [loading - flutter_spinkit](https://pub.flutter-io.cn/packages/flutter_spinkit)
+* [toast - fluttertoast](https://pub.flutter-io.cn/packages/fluttertoast)
+* [路由 - fluro](https://pub.flutter-io.cn/packages/fluro)
+* [webview - webview_flutter](https://pub.flutter-io.cn/packages/webview_flutter)
+* [打开外部应用 - url_launcher]()
